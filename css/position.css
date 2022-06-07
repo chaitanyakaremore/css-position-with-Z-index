@@ -1,0 +1,86 @@
+body,html{
+    padding: 0;
+    margin: 0;
+}
+ .box-1,.box-2,.box-3,.box-4{
+    background-color:burlywood;
+    height: 400px;
+    width: 400px;
+    border-radius: 5px; 
+    position: absolute;
+}
+.static{
+background-color: aliceblue;
+position: static;
+height: 100px;
+width: 100px;
+border-radius: 5px;
+}
+.relative{
+    background-color: darkseagreen;
+    position: relative;
+    height: 100px;
+    width: 100px;
+    border-radius: 5px;
+    }
+    .absolute{
+        background-color: rgb(74, 158, 231);
+        position: absolute;
+        height: 100px;
+        width: 100px;
+        border-radius: 5px;
+        }
+        .fixed{
+            background-color:wheat;
+            position: fixed;
+            height: 100px;
+            width: 100px;
+            border-radius: 5px;
+            }
+            .sticky{
+                background-color: rgb(54, 177, 211);
+                position: sticky;
+                height: 100px;
+                width: 100px;
+                border-radius: 5px;
+                }
+                h1{
+                    margin: 0;
+                    font-size: 5rem;
+                    position: absolute;
+                    text-shadow: 5px 5px 5px darkblue;
+                }
+.box-1{
+    background-color: rgb(209, 88, 88);
+    z-index: 1;
+}
+.box-2{
+    background-color: aqua;
+    top: 50px;
+    left: 50px;
+    z-index: 2;
+}
+.box-3{
+    background-color: aquamarine;
+    top: 100px;
+    left: 100px;
+    z-index: 3;
+}
+.box-4{
+background-color: beige;
+top: 150px;
+left: 150px;
+z-index: 4;
+}
+div{
+    height: 300px;
+    width: 10px;
+    margin: auto;
+    margin-top: 100px;
+    box-shadow: 0 0 10px red;
+}
+
+
+
+
+
